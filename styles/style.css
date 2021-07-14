@@ -1,0 +1,87 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* -------copa-america------ */
+.copa-america{
+    Width :1070px;
+    Height :497px;
+    background-color: #2D25A0;
+    display: flex;
+}
+.introduce{
+    margin-top: 113px;
+    margin-left: 135px;
+    color: white;
+    font-size: 25px;
+}
+.introduce button{
+   
+    color: white;
+    background-color: #E02C6D;
+   
+   
+}
+.kick-football img{
+    position: relative;
+    width: 428px;
+    height: 348px;
+    margin-top: 93px;
+    margin-left: 245px;
+    margin-right: 105px;
+}
+.kick-football img:hover{
+      transform: scale(0.75);
+      transform: rotate(20deg);
+
+}
+.fa-arrow-right{
+    font-size: 10px;
+}
+/*----- players-container-start------ */
+.container{
+   
+}
+.player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+    width: 1000px;
+    margin: auto;
+}
+.player-content{
+    width: 240px;
+    height: 335px;
+    margin-left: 210px;
+    margin-top: 47px;
+    border: 2px solid black;
+}
+.player-content img{
+    width: 220px;
+    height: 200px;
+    margin: 10px;
+    
+}
+.player-content h2{
+    
+    display: inline;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.player-content p{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 10px;
+    color: grey;
+}
+.checkbox{
+    margin-left: 8px;
+}
+#submit{
+    background-color: rgb(83, 17, 236);
+    border-radius: 10px;
+    padding: 2px;
+    color: lightgoldenrodyellow;
+}
+#check{
+    color: rgb(83, 17, 236);
+}
